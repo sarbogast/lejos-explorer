@@ -1,0 +1,16 @@
+This is a Java rewriting of the Explorer program you can find on nxtprograms
+(http://www.nxtprograms.com/NXT2/explorer/index.html), but running on LeJOS
+(http://lejos.sourceforge.net/) instead of NXT-G.
+
+The program can still be improved, especially to play the Ooof sound when it
+hits something, but I can't figure out where to put the rso file so that LeJOS
+can find it.
+
+Video is on Youtube: http://www.youtube.com/watch?v=h5uUAxrjOas
+
+Developed using IntelliJ IDEA on a Mac.
+Be careful with LeJOS on the Mac. Use Windows to flash the firmware and note that
+the USB driver can crash sometimes when uploading a program to the NXT.
+
+A bootstrap project for working with LeJOS in IntelliJ can be found on my FTP:
+ftp://ftp.epseelon.com/NXJSample.zip
